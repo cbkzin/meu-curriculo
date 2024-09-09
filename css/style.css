@@ -1,0 +1,534 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #201f1f;
+}
+
+:root {
+    --white-color: rgb(255, 255, 255);
+    --red-color: rgb(192, 57, 57);
+    --background-more-dark: rgb(37, 37, 37);
+}
+
+.displayflex {
+    display: flex;
+}
+
+.alignitemscenter {
+    align-items: center;
+}
+
+.textaligncenter {
+    text-align: center;
+}
+
+.justifycontentcenter {
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+.fa-github,
+.fa-linkedin,
+.fa-whatsapp {
+    color: var(--white-color);
+    font-size: 4rem;
+}
+
+.fa-envelope,
+.fa-phone {
+    color: var(--white-color);
+    font-size: 2rem;
+}
+
+.title-section {
+    font-size: 4rem;
+    color: var(--red-color);
+    text-shadow: 2px 2px 2.5px rgba(192, 57, 57, 0.3);
+    margin-bottom: 50px;
+}
+
+#about-me-content,
+#skills-content,
+#contact-content,
+#projects-content {
+    max-width: 90%;
+    margin: 100px auto;
+    font-family: 'Montserrat', sans-serif
+}
+
+.tools-familiar,
+.projects,
+.contact {
+    display: grid;
+}
+
+.download-text,
+.repository-text,
+.open-project-text {
+    font-size: 1.95rem;
+}
+
+.me-description-text,
+.description-project-text {
+    text-align: justify;
+}
+
+.languages-used-project-text,
+.text-contact {
+    font-size: 1.5rem;
+}
+
+.buttons {
+    background-color: var(--red-color);
+    border-radius: 6px;
+    padding: 4.5px 8.5px 4.5px 8.5px;
+    box-shadow: 0 0 1.5px 1.5px rgb(192, 57, 57);
+    color: var(--white-color);
+    font-family: 'Rowdies', cursive;
+    letter-spacing: 0.18rem;
+}
+
+.buttons:hover {
+    transition: all 300ms ease-in-out;
+    cursor: pointer;
+    background-color: #201f1f;
+}
+
+.buttons:hover h6 {
+    color: var(--red-color)
+}
+
+.buttons:hover i {
+    color: var(--red-color);
+}
+
+#header-content {
+    background-color: var(--background-more-dark);
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+
+}
+
+.cbk-text-header {
+    font-family: 'Press Start 2P', cursive;
+    text-transform: uppercase;
+    color: var(--red-color);
+    font-size: 3rem;
+    text-shadow: 3px 2px 4px rgba(192, 57, 57, 0.35);
+    cursor: pointer;
+}
+
+.nav-tag-header a {
+    margin-right: 30px;
+    font-size: 2.1rem;
+    position: relative;
+}
+
+.ul-tag-header {
+    list-style-type: none;
+}
+
+.nav-tag-header a::after {
+    content: ' ';
+    position: absolute;
+    left: 50%;
+    bottom: -25px;
+    width: 0px;
+    height: 2.5px;
+    background-color: var(--red-color);
+    transition: all 300ms ease;
+
+}
+
+.nav-tag-header a:hover::after {
+    width: 95%;
+    left: 3%;
+}
+
+.nav-tag-header {
+    padding: 20px 0 20px 0;
+    justify-content: space-around;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+#home-content {
+    height: 100vh;
+    color: var(--white-color);
+    font-family: 'Source Code Pro', monospace;
+}
+
+.language-change {
+    position: absolute;
+    top: 90px;
+    right: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.usa-flag,
+.brazil-flag {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.language-flag.selected {
+    border: 2.5px solid rgb(192, 57, 57);
+    border-radius: 100%;
+    padding: 1px;
+}
+
+.fa-linkedin:hover {
+    color: rgb(10, 102, 194)
+}
+
+.fa-github:hover {
+    color: rgb(30, 41, 56)
+}
+
+.hello-text {
+    text-transform: uppercase;
+    font-size: 4.2rem;
+}
+
+.name-text {
+    font-size: 7rem;
+    margin: 10px 0 10px 0;
+}
+
+.profession-text {
+    font-size: 5rem;
+}
+
+.centralize-socials-media-home {
+    gap: 20px;
+    margin-top: 38px;
+}
+
+#about-me-content {
+    color: var(--white-color);
+}
+
+.centralize-infos-header {
+    max-width: 95%;
+}
+
+.fa-download {
+    margin-right: 10px;
+    font-size: 2.8rem;
+}
+
+.cicero-image {
+    width: auto;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.me-description-text {
+    font-size: 2.3rem;
+    margin-bottom: 80px;
+    line-height: 4rem;
+}
+
+.my-informations {
+    margin-left: 25px;
+}
+
+#skills-content .title-section {
+    margin-bottom: 100px;
+}
+
+.tools-familiar img {
+    height: 115px;
+    width: 115px;
+}
+
+.tools-familiar {
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(115px, auto));
+    gap: 40px;
+}
+
+.tools-familiar img:hover {
+    transform: translateY(-7px);
+    transition: transform 300ms ease-in-out;
+}
+
+.projects {
+    grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+    color: var(--white-color);
+    gap: 40px;
+}
+
+.img-of-project {
+    width: 100%;
+    height: 225px;
+}
+
+.list-projects {
+    background-color: var(--background-more-dark);
+}
+
+.centralize-projects {
+    padding: 19px 0px 19px 0px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.description-project-text {
+    font-size: 1.7rem;
+    line-height: 2.3rem;
+    margin: 15px 0 15px 0;
+}
+
+.name-project-text {
+    font-size: 3rem;
+    margin-bottom: 18px;
+}
+
+.buttons-project-align {
+    gap: 30px;
+}
+
+#contact-content {
+    color: var(--white-color);
+}
+
+.line-middle {
+    background-color: var(--white-color);
+    box-shadow: 0 0 1px 0.5px rgb(255, 255, 255);
+}
+
+.contact {
+    grid-template-columns: 1fr 1px 1fr;
+    grid-auto-rows: 100px;
+}
+
+.fa-whatsapp:hover {
+    color: rgb(37, 211, 102)
+}
+
+.contact-icons {
+    gap: 25px;
+}
+
+.number-text-margin {
+    margin-top: 15px;
+}
+
+.text-contact {
+    margin-left: 8px;
+}
+
+.footer {
+    font-size: 1.7rem;
+    color: var(--white-color);
+    font-family: 'Montserrat', sans-serif;
+    height: 5vh;
+    background-color: var(--background-more-dark);
+}
+
+@media (min-width: 1300px) and (max-width: 1900px) {
+    .me-description-text {
+        margin-bottom: 45px;
+    }
+
+}
+
+@media (min-width: 1160px) and (max-width: 1299px) {
+    .me-description-text {
+        margin-bottom: 25px;
+        font-size: 2.05rem;
+        line-height: 3.5rem;
+
+    }
+
+}
+
+@media (min-width: 1069px) and (max-width: 1159px) {
+    .me-description-text {
+        margin-bottom: 20px;
+        font-size: 1.95rem;
+        line-height: 3.6rem;
+
+    }
+
+}
+
+@media (min-width: 955px) and (max-width: 1069px) {
+    .me-description-text {
+        margin-bottom: 18px;
+        font-size: 1.9rem;
+        line-height: 3.2rem;
+
+    }
+}
+
+@media (max-width: 954px) {
+    .cicero-image {
+        display: none;
+    }
+
+    .about-title {
+        text-align: center;
+    }
+
+    .me-description-text {
+        margin-bottom: 45px;
+    }
+
+    .cv-tag-a {
+        justify-content: center;
+        display: flex;
+    }
+
+    .my-informations {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 623px) {
+    .me-description-text {
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 500px) {
+    .me-description-text {
+        font-size: 1.9rem;
+    }
+
+    .projects {
+        grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    }
+
+}
+
+@media (min-width: 800px) and (max-width: 950px) {
+    .projects {
+        grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    }
+}
+
+@media (max-width: 870px) {
+    .buttons-project-align {
+        flex-flow: column wrap;
+    }
+
+    .buttons-project-align .buttons {
+        width: 100%;
+    }
+}
+
+@media (max-width: 570px) {
+    .contact {
+        grid-template-rows: 1fr 1px 1fr;
+        justify-content: center;
+        gap: 40px
+    }
+
+    .contact:nth-child(2) {
+        grid-template-columns: minmax(200px, auto);
+    }
+
+    .name-text {
+        margin: 20px 0 20px 0;
+    }
+
+}
+
+@media (max-width: 650px) {
+    .hello-text {
+        font-size: 3.7rem;
+    }
+
+    .name-text {
+        font-size: 6rem;
+    }
+
+    .profession-text {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .nav-tag-header {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+
+    }
+
+    .mobile-menu-icon button {
+        background-color: transparent;
+        cursor: pointer;
+        border: none;
+    }
+
+    .open {
+        display: block;
+    }
+
+    .list-item-header {
+        padding-bottom: 25px;
+        font-size: 1.9rem;
+    }
+
+    .mobile-menu .ul-tag-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .mobile-menu a {
+        position: relative;
+    }
+
+    .mobile-menu a::after {
+        content: ' ';
+        position: absolute;
+        left: 55%;
+        bottom: -10px;
+        width: 0px;
+        height: 2px;
+        background-color: var(--red-color);
+        transition: all 300ms ease;
+    }
+
+    .mobile-menu a:hover::after {
+        width: 90%;
+        left: 4%;
+    }
+
+    .language-change {
+        display: none;
+    }
+
+}
