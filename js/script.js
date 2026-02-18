@@ -91,7 +91,7 @@ $(function () {
         $(".profession-text").text("Desenvolvedor Front-end");
         // About
         $("#about-me-content .title-section").text("Sobre Mim");
-        $(".me-description-text").text("Olá, pessoal! Eu sou Cícero Bernhard Kessler, tenho 24 anos e sou desenvolvedor web. Sou formado em Análise e Desenvolvimento de Sistemas e possuo forte conhecimento em Front-end. Atualmente, estou ampliando minhas habilidades estudando Back-end e também me dedico a um curso de inglês avançado com foco em conversação.");
+        $(".me-description-text").text("Olá, pessoal! Eu sou Cícero Bernhard Kessler, tenho 24 anos e sou desenvolvedor web. Sou formado em Análise e Desenvolvimento de Sistemas e possuo conhecimento em Front-end. Atualmente, estou estudando novas ferramentas para me aperfeiçoar ainda mais no desenvolvimento Front-end.");
         $(".download-text").text("Baixar Cv");
         // Skills
         $("#skills-content .title-section").text("Habilidades");
@@ -129,7 +129,7 @@ $(function () {
         $(".profession-text").text("Front-end developer");
         // About
         $("#about-me-content .title-section").text("About Me");
-        $(".me-description-text").text("Hello everyone! My name is Cícero Bernhard Kessler, I’m 24 years old and I’m a web developer. I hold a degree in Systems Analysis and Development and have strong knowledge in Front-end development. Currently, I am expanding my skills by studying Back-end development, and I am also taking an advanced English course focused on conversation.");
+        $(".me-description-text").text("Hello everyone! My name is Cícero Bernhard Kessler, I’m 24 years old and I’m a web developer. I hold a degree in Systems Analysis and Development and have knowledge in Front-end development. Currently, I am studying new tools to further improve my Front-end development skills.");
         $(".download-text").text("Download Cv");
         // Skills
         $("#skills-content .title-section").text("Skills");
