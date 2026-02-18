@@ -135,11 +135,11 @@ $(function () {
         $("#skills-content .title-section").text("Skills");
         // Projects
         $("#projects-content .title-section").text("Projects");
-        $(".project-one").text("One project");
-        $(".project-two").text("Two project");
-        $(".project-three").text("Three project");
-        $(".project-four").text("Four project");
-        $(".description-project-text").text("Não existe tradução para o termo Lorem Ipsum. O nome desse recurso de diagramação corresponde as duas palavras iniciais da amostragem textual: Lorem e Ipsum. Alguns especialistas sugerem que Lorem Ipsum deriva do termo Dolores Ipsum, o que seria traduzido como “A dor em si”.")
+        $(".project-one").text("Project One");
+        $(".project-two").text("Project Two");
+        $(".project-three").text("Project Three");
+        $(".project-four").text("Project Four");
+        $(".description-project-text").text("There is no translation for the term Lorem Ipsum. The name of this layout resource corresponds to the first two words of the sample text: Lorem and Ipsum. Some experts suggest that Lorem Ipsum derives from the term Dolores Ipsum, which would be translated as “Pain itself.”")
         $(".open-project-text").text("Open project");
         $(".repository-text").text("Repository");
         // Contact
